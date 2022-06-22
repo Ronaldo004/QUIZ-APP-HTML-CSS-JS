@@ -1,0 +1,136 @@
+body{
+    background-image: url("back1.jpg");
+}
+.login-text{
+    text-align: center;
+    color: chocolate;
+}
+.form{
+    width: 100%;
+    margin: auto;
+    border: rgb(255, 198, 106) 2px solid;
+    height: 300px;
+    text-align: center;
+}
+.form-text{
+    /* padding: 20px; */
+    margin: 15px;
+}
+label{
+    color:black;
+    font-size: 20px;
+}
+input{
+    border: rgb(255, 198, 106) solid 1px;
+    margin-top: 40px;
+
+}
+.btn{
+    background-color: rgb(255, 198, 106);
+    margin-top: 70px;
+    border: solid 1px rgb(255, 198, 106);
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+}
+
+
+.left-text-head{
+    color: brown;
+    width: 100%;
+}
+a{
+    color: darkblue;
+}
+.main1heading{
+    text-align: center;
+    color:darkgoldenrod;
+}
+
+.header{
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    color:rgb(231, 54, 54);
+    border:rgb(255, 198, 106) 5px solid;
+}
+.startbtn{
+    background-color: rgb(255, 198, 106);
+    border: solid 1px rgb(255, 198, 106);
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.main2{
+    display: none;
+}
+.queshead{
+    text-align: center;
+    color:chocolate;
+}
+.answers{
+   text-align: center;
+    width: 100%;
+    border: rgb(255, 198, 106) solid 4px;
+}
+.timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:brown;
+
+} 
+.ques{
+    width: 100%;
+    text-align: center;
+    color:brown;
+}
+.qh{
+    font-size: 25px;
+}
+span{
+    font-size: 25px;
+}
+li{
+    list-style-type: none;
+    width: 100%;
+    box-shadow: 3px 1px;
+    color: chocolate;
+    margin-top: 5px;
+}
+.nextbtn{
+    background-color: rgb(252, 166, 29);
+    border: solid 1px rgb(255, 166, 22);
+    float: right;
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
+    margin-top: 2px;
+    border-radius: 5px;
+}
+.result{
+    width: 100%;
+    text-align: center;
+    border: solid 3px rgb(248, 153, 0);
+    display: none;
+}
+.resulthead{
+    color:rgb(243, 112, 19);
+}
+.res{
+    color:rgb(238, 108, 15);
+    box-shadow: 3px 2px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.resultbtn{
+    background-color: rgba(240, 148, 0, 0.877);
+    border: solid 1px rgb(241, 85, 23);
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
+    border-radius: 5px;
+}

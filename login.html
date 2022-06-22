@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   
+<div class="left-text">
+    <h2 class="left-text-head">USERNAME : Muhammad Rohan</h2>
+    <a href="index.html"><h2>LOG OUT</h2></a>
+</div>
+
+<div id="main1">
+<div class="main1heading">
+<h1>WELCOME TO OUR QUIZ APP</h1>
+</div>
+
+<div class="header">
+
+    <h2>Time = 5 min</h2>
+    <h2>Total Questions =  10</h2>
+    <h2>Total Marks = 100</h2>
+    <h2>Passing Marks = 60</h2>
+    <button class="startbtn" onclick="start()">START</button>
+</div>
+</div>
+
+
+
+     <div class="main2" id="main2">
+            <div class="answers">
+
+                <div class="timer">
+                    <h1 class="time" id="min"></h1>
+                    <h1 class="time">:</h1>
+                    <h1 id="sec" class="time"></h1>
+                </div>
+                <div class="ques">
+                        <p id="question" class="qh" ></p>
+                    </div>
+
+
+            <div class="optn">
+
+                <form>
+                    <ul>
+
+                        <li> <label for="a">
+                                <input type="radio" id="a" name="r1" value="a">
+                                <span id="option1"></span>
+                            </label>
+                        </li><br>
+
+                        <li><label for="b">
+                                <input type="radio" id="b" name="r1" value="b">
+                                <span id="option2"></span>
+                            </label>
+                        </li><br>
+                        <li><label for="c">
+                                <input type="radio" id="c" name="r1" value="c">
+                                <span id="option3"></span>
+                            </label>
+                        </li><br>
+
+                        <li><label for="d">
+                                <input type="radio" id="d" name="r1" value="d">
+                                <span id="option4"></span>
+                            </label>
+                        </li>
+                    </ul>
+                </form>
+                </br>
+            </div>
+        </div>
+        <div class="next">
+                <button id="btn" onclick="change()" class="nextbtn"> Next</button>
+            </div>
+     </div>
+    <div id="result" class="result">
+        <div id="heading">
+            <h1 class="resulthead">Your Score</h1>
+        </div>
+        <div id="para">
+            <h1 id="total" class="res">Total Marks = 100</h1>
+            <h1 id="obtained" class="res">Your Marks = </h1>
+            <h1 id="condition" class="res"></h1>
+        </div>
+        <div id="button">
+            <a href="index.html"><button class="resultbtn">Done</button></a>
+        </div>
+    </div> 
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
